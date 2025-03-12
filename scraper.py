@@ -19,7 +19,7 @@ CHROMEDRIVER_PATH = "/usr/local/bin/chromedriver"
 BASE_COURSE_URL = "https://anaanu.com/s/virginia-tech-vt/course/{}"
 
 # courses
-COURSES = ["DASC%2B1574", "STAT%2B3005", "CHEM%2B1035", "CS%2B3114"]  
+COURSES = ["DASC%2B1574", "STAT%2B3005", "CHEM%2B1035", "CS%2B3114", "STAT%2B4705"]  
 
 def scrape_anaanu():
     logging.info("Starting Anaanu scraper...")

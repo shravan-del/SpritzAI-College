@@ -215,5 +215,75 @@
         "classes_taught": "Raghvendra",
         "A_grade_percentage": "2",
         "GPA": "2.85"
+    },
+    {
+        "course": "STAT%2B4705",
+        "name": "",
+        "classes_taught": "Zhang",
+        "A_grade_percentage": "25",
+        "GPA": "3.57"
+    },
+    {
+        "course": "STAT%2B4705",
+        "name": "",
+        "classes_taught": "Ortega Villa",
+        "A_grade_percentage": "10",
+        "GPA": "3.13"
+    },
+    {
+        "course": "STAT%2B4705",
+        "name": "",
+        "classes_taught": "Mao",
+        "A_grade_percentage": "3",
+        "GPA": "3.31"
+    },
+    {
+        "course": "STAT%2B4705",
+        "name": "",
+        "classes_taught": "McGill",
+        "A_grade_percentage": "3",
+        "GPA": "3.45"
+    },
+    {
+        "course": "STAT%2B4705",
+        "name": "",
+        "classes_taught": "Olteanu",
+        "A_grade_percentage": "3",
+        "GPA": "3.34"
+    },
+    {
+        "course": "STAT%2B4705",
+        "name": "",
+        "classes_taught": "Stewart",
+        "A_grade_percentage": "3",
+        "GPA": "2.62"
+    },
+    {
+        "course": "STAT%2B4705",
+        "name": "",
+        "classes_taught": "Ye",
+        "A_grade_percentage": "3",
+        "GPA": "2.85"
+    },
+    {
+        "course": "STAT%2B4705",
+        "name": "",
+        "classes_taught": "Kim",
+        "A_grade_percentage": "2",
+        "GPA": "3.24"
+    },
+    {
+        "course": "STAT%2B4705",
+        "name": "",
+        "classes_taught": "Lemons",
+        "A_grade_percentage": "2",
+        "GPA": "3.46"
+    },
+    {
+        "course": "STAT%2B4705",
+        "name": "",
+        "classes_taught": "Reynolds",
+        "A_grade_percentage": "2",
+        "GPA": "2.70"
     }
 ]
