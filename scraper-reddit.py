@@ -1,66 +1,69 @@
 import praw
-import json
-import logging
-import time
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-
-REDDIT_CLIENT_ID = "kT_kKOaK9fWNIrhlOBr8Eg"
-REDDIT_CLIENT_SECRET = "CiKZsVFePlQH3uNugggZvpUwYuvaGQ"
-REDDIT_USER_AGENT = "SpritzAI-Scraper"
-
+# === Replace with your Reddit API credentials ===
 reddit = praw.Reddit(
-    client_id=REDDIT_CLIENT_ID,
-    client_secret=REDDIT_CLIENT_SECRET,
-    user_agent=REDDIT_USER_AGENT
+    client_id="kT_kKOaK9fWNIrhlOBr8Eg",
+    client_secret="CiKZsVFePlQH3uNugggZvpUwYuvaGQ",
+    user_agent="SpritzAI_scraper:v1.0 (by /u/VermicelliLazy9181)"
 )
 
-SEARCH_TERMS = [
-    "DASC 1574 Virginia Tech",
-    "STAT 3005 Virginia Tech",
-    "Professor Knowlton Virginia Tech",
+# Subreddit and keywords to search
+subreddit = reddit.subreddit("VirginiaTech")
+keywords = [
+    "hardest classes", "CS courses", "ENGR 1215", "easy electives", 
+    "professors to avoid", "professors to choose", "Calculus", "World Regions",
+    "Geography of Wine", "COMM 1014", "math department", "GPA boosters"
 ]
 
-reddit_data = []
-
+# Function to fetch and scrape post data
 def scrape_reddit():
-    logging.info("Starting Reddit Scraper...")
+    post_data = []
+    for keyword in keywords:
+        print(f"Searching for: {keyword}...")
+        for submission in subreddit.search(keyword, limit=10):  # Adjust limit as needed
+            submission.comments.replace_more(limit=5)  # Expands top comments
+            comments = [comment.body for comment in submission.comments[:10]]  # Extract top 10 comments
+            post_data.append({
+                "Title": submission.title,
+                "Upvotes": submission.score,
+                "URL": submission.url,
+                "Comments": comments
+            })
+    
+    # Convert data to DataFrame
+    df = pd.DataFrame(post_data)
+    return df
 
-    for term in SEARCH_TERMS:
-        logging.info(f"🔍 Searching Reddit for: {term}")
+# Scrape the data
+df_reddit = scrape_reddit()
 
-        try:
-            posts = reddit.subreddit("all").search(term, limit=10)  # Fetch top 10 posts
+# Save to CSV for further processing
+df_reddit.to_csv("VirginiaTech_Reddit_Classes.csv", index=False)
+print("Scraped data saved to VirginiaTech_Reddit_Classes.csv!")
 
-            for post in posts:
-                post_data = {
-                    "title": post.title,
-                    "url": post.url,
-                    "score": post.score,
-                    "num_comments": post.num_comments,
-                    "text": post.selftext,
-                    "comments": []
-                }
+# === Scraping Easy Electives Page (from Reddit thread) ===
+def scrape_easy_electives():
+    url = "https://www.reddit.com/r/VirginiaTech/comments/y6szzn/easy_classes_list_80_classes/"  # Thread URL
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    response = requests.get(url, headers=headers)
 
-                post.comments.replace_more(limit=2)  
-                for comment in post.comments.list()[:5]:  
-                    post_data["comments"].append({
-                        "author": str(comment.author),
-                        "score": comment.score,
-                        "text": comment.body
-                    })
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, 'html.parser')
+        comments = soup.find_all("div", class_="md")  # Extracting markdown content
 
-                reddit_data.append(post_data)
+        electives = []
+        for comment in comments:
+            text = comment.get_text()
+            if "GPA" in text or "easy class" in text:  # Filtering relevant info
+                electives.append(text)
 
-            logging.info(f"Extracted {len(reddit_data)} posts for {term}")
+        df_electives = pd.DataFrame({"Elective_Classes": electives})
+        df_electives.to_csv("VirginiaTech_Easy_Electives.csv", index=False)
+        print("Easy electives scraped and saved!")
+    else:
+        print("Failed to fetch easy electives!")
 
-            time.sleep(2)  # Prevent API rate limits
-
-        except Exception as e:
-            logging.error(f"Error fetching {term}: {e}")
-
-    with open("reddit_data.json", "w") as f:
-        json.dump(reddit_data, f, indent=4)
-    logging.info("Reddit data successfully saved to reddit_data.json")
-
-scrape_reddit()
+scrape_easy_electives()

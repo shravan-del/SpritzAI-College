@@ -1,0 +1,165 @@
+Elective_Classes
+"
+
+    Hey Hokies, it's just about time for course request and I know people are searching for some easy classes to add to their schedule. In an attempt to minimize the need for posts asking about said classes, I made a program to skim all the 1XXX/2XXX/3XXX courses VT has offered over the last few years and compile a list of the ones that have a high average GPA (3.7+) over a large sample size (75+ students). Check it out below.
+  
+    The number in parenthesis is the average GPA for one of the recent sections offered. Please note that some of these classes may require prerequisites. Also, some inclusions on this list may be an artifact of an unusually high section grade (i.e. CS 2505 having a GPA of 3.78 in one section when it's usually much lower). I've removed a few of these cases but let me know if there are more. If anybody is interested in the Java code so they can play with it or generate their own lists shoot me a DM.
+  
+    Data collected from University DataCommons Grade Distribution list.
+  
+
+    AAEC 2104: Personal Financial Planning (3.82),
+  
+    AAEC 3454: Small Bus Mgt and Ent (3.94),
+  
+    AFST 1714: Intro African American Studies (3.86),
+  
+    AHRM 1014: Design and Art for Consumers (3.83),
+  
+    APSC 3064: Comp/Lab Animal Science (3.77),
+  
+    ARCH 2034: Art of Building (3.82),
+  
+    ARCH 2044: Building Materials (3.98),
+  
+    ARCH 3045: Building Assemblies (3.79),
+  
+    ARCH 3046: Building Assemblies (3.74),
+  
+    BIT 3424: Intro Bus Analytics Modeling (3.83),
+  
+    BIT 3444: Adv Bus Comp and App (3.72),
+  
+    BIT 3454: Business Process Improvement (3.81),
+  
+    BMES 2004: Concussion Perspectives (3.84),
+  
+    CEE 2834: CE Drawings & Virtual Modeling (3.74),
+  
+    CEE 3014: Construction Management (3.73),
+  
+    CHEM 1015: Chemistry in Context (3.92),
+  
+    CHEM 1016: Chemistry in Context (3.93),
+  
+    COMM 2084: Media and Society (3.74),
+  
+    CS 3604: Professionalism in Computing (3.73),
+  
+    CS 3704: Intermed Software Des (3.82),
+  
+    CS 3724: Human-Computr Intrctn (3.91),
+  
+    ECON 2006: Principles of Economics (3.83),
+  
+    ENGL 1634: Introduction to Shakespeare (3.95),
+  
+    ENGR 3124: Green Engineering (3.75),
+  
+    ENSC 1016: Found Environmental Sci (3.72),
+  
+    FA 2004: Creativity & the Artistic Exp (3.7),
+  
+    FREC 2134: Plants & Greenspaces Urban Com (3.86),
+  
+    FREC 2554: Leading Global Sustainability (3.74),
+  
+    FST 2014: Introduction to Food Science (3.98),
+  
+    FST 3114: Wines and Vines (3.77),
+  
+    FST 3124: Brewing Science and Technology (3.96),
+  
+    GEOG 1084: Digital Planet (3.74),
+  
+    GEOS 1024: Earth Resources Soc & Env (3.79),
+  
+    GEOS 1034: Earth's Natural Hazards (3.74),
+  
+    HD 1004: Human Development I (3.74),
+  
+    HD 1134: Intro to Disabilities Studies (3.81),
+  
+    HD 2014: Integrative Health Practices (3.89),
+  
+    HD 2314: Human Sexuality (3.91),
+  
+    HD 3014: Research Methods in Human Dev (3.8),
+  
+    HNFE 1004: Foods Nutrition And Exercise (3.71),
+  
+    HNFE 2014: Nutrition Across the Life Span (3.79),
+  
+    HNFE 2664: Behav Theory in Hlth Promotion (3.82),
+  
+    HNFE 2824: Athletic Injuries (3.81),
+  
+    HNFE 3824: Kinesiology (3.84),
+  
+    HORT 2134: Plants & Greenspaces Urban Com (3.86),
+  
+    HTM 1414: Intro to HTM (3.72),
+  
+    HTM 2454: Travel & Tourism Management (3.72),
+  
+    IDS 2114: Hist/Theory Industrial Design (4.0),
+  
+    IDS 2124: History Modern Designers (4.0),
+  
+    ISE 2014: Engineering Economy (3.8),
+  
+    ISE 3004: Industrial Cost Control (3.72),
+  
+    ISE 3214: Facilities and Logistics (3.7),
+  
+    ISE 3424: Discrete-Event Simulation (3.77),
+  
+    ITDS 1114: Design Appreciation (3.79),
+  
+    JMC 2074: Introduction to Sports Media (3.73),
+  
+    MGT 1064: Entrepreneurs Residence Exp (3.83),
+  
+    MGT 2064: Foundations Entrepreneurship (3.85),
+  
+    MGT 3404: Principles of Management (3.9),
+  
+    MKTG 3104: Marketing Management (3.77),
+  
+    MUS 1104: Music Appreciation (3.74),
+  
+    MUS 2115: Survey of Western Music (3.72),
+  
+    MUS 2116: Survey of Western Music (3.92),
+  
+    NEUR 2026: Introduction to Neuroscience (3.94),
+  
+    NEUR 3594: Neurobiol Psych Disorders (3.97),
+  
+    PHIL 1304: Morality and Justice (3.79),
+  
+    PHS 1514: Personal Health (3.8),
+  
+    PHS 2004: Introduction to Public Health (3.98),
+  
+    PHS 3534: Drug Education (3.92),
+  
+    PHYS 1055: Introduction to Astronomy (3.8),
+  
+    PHYS 1056: Introduction to Astronomy (3.79),
+  
+    PHYS 3655: Introduction to Astrophysics (3.81),
+  
+    PSCI 2014: Intro to Political Theory (3.7),
+  
+    PSYC 1024: Pathways Psychology Major (3.72),
+  
+    PSYC 2044: Psychology of Learning (3.75),
+  
+    PSYC 3014: Abnormal Psychology (3.83),
+  
+    SOC 1004: Introductory Sociology (3.71),
+  
+    SPES 2004: Cannabis Sci Ind & Culture (3.82),
+  
+"
