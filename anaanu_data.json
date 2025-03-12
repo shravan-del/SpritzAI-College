@@ -1,0 +1,149 @@
+[
+    {
+        "course": "DASC%2B1574",
+        "name": "",
+        "classes_taught": "Knowlton",
+        "A_grade_percentage": "13",
+        "GPA": "3.91"
+    },
+    {
+        "course": "STAT%2B3005",
+        "name": "",
+        "classes_taught": "Tavera",
+        "A_grade_percentage": "26",
+        "GPA": "3.40"
+    },
+    {
+        "course": "STAT%2B3005",
+        "name": "",
+        "classes_taught": "Pickle",
+        "A_grade_percentage": "4",
+        "GPA": "2.84"
+    },
+    {
+        "course": "STAT%2B3005",
+        "name": "",
+        "classes_taught": "Robertson Evia",
+        "A_grade_percentage": "4",
+        "GPA": "3.40"
+    },
+    {
+        "course": "STAT%2B3005",
+        "name": "",
+        "classes_taught": "Zhao",
+        "A_grade_percentage": "4",
+        "GPA": "2.99"
+    },
+    {
+        "course": "STAT%2B3005",
+        "name": "",
+        "classes_taught": "Chen",
+        "A_grade_percentage": "3",
+        "GPA": "2.87"
+    },
+    {
+        "course": "STAT%2B3005",
+        "name": "",
+        "classes_taught": "Lemons",
+        "A_grade_percentage": "3",
+        "GPA": "3.11"
+    },
+    {
+        "course": "STAT%2B3005",
+        "name": "",
+        "classes_taught": "Parvu",
+        "A_grade_percentage": "3",
+        "GPA": "3.09"
+    },
+    {
+        "course": "STAT%2B3005",
+        "name": "",
+        "classes_taught": "Ryan",
+        "A_grade_percentage": "3",
+        "GPA": "2.64"
+    },
+    {
+        "course": "STAT%2B3005",
+        "name": "",
+        "classes_taught": "Baker",
+        "A_grade_percentage": "2",
+        "GPA": "2.75"
+    },
+    {
+        "course": "STAT%2B3005",
+        "name": "",
+        "classes_taught": "Duggins",
+        "A_grade_percentage": "2",
+        "GPA": "2.02"
+    },
+    {
+        "course": "CHEM%2B1035",
+        "name": "",
+        "classes_taught": "Amateis",
+        "A_grade_percentage": "152",
+        "GPA": "2.49"
+    },
+    {
+        "course": "CHEM%2B1035",
+        "name": "",
+        "classes_taught": "Arachchige",
+        "A_grade_percentage": "113",
+        "GPA": "2.59"
+    },
+    {
+        "course": "CHEM%2B1035",
+        "name": "",
+        "classes_taught": "Eddleton",
+        "A_grade_percentage": "66",
+        "GPA": "2.41"
+    },
+    {
+        "course": "CHEM%2B1035",
+        "name": "",
+        "classes_taught": "Wagner",
+        "A_grade_percentage": "33",
+        "GPA": "2.83"
+    },
+    {
+        "course": "CHEM%2B1035",
+        "name": "",
+        "classes_taught": "Trivedi",
+        "A_grade_percentage": "29",
+        "GPA": "2.81"
+    },
+    {
+        "course": "CHEM%2B1035",
+        "name": "",
+        "classes_taught": "Wall",
+        "A_grade_percentage": "29",
+        "GPA": "2.80"
+    },
+    {
+        "course": "CHEM%2B1035",
+        "name": "",
+        "classes_taught": "Spencer",
+        "A_grade_percentage": "26",
+        "GPA": "2.35"
+    },
+    {
+        "course": "CHEM%2B1035",
+        "name": "",
+        "classes_taught": "Merola",
+        "A_grade_percentage": "22",
+        "GPA": "2.38"
+    },
+    {
+        "course": "CHEM%2B1035",
+        "name": "",
+        "classes_taught": "Yee",
+        "A_grade_percentage": "22",
+        "GPA": "2.19"
+    },
+    {
+        "course": "CHEM%2B1035",
+        "name": "",
+        "classes_taught": "Neidigh",
+        "A_grade_percentage": "20",
+        "GPA": "2.33"
+    }
+]
