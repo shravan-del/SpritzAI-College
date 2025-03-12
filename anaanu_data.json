@@ -145,5 +145,75 @@
         "classes_taught": "Neidigh",
         "A_grade_percentage": "20",
         "GPA": "2.33"
+    },
+    {
+        "course": "CS%2B3114",
+        "name": "",
+        "classes_taught": "McQuain",
+        "A_grade_percentage": "21",
+        "GPA": "2.53"
+    },
+    {
+        "course": "CS%2B3114",
+        "name": "",
+        "classes_taught": "Shaffer",
+        "A_grade_percentage": "14",
+        "GPA": "2.98"
+    },
+    {
+        "course": "CS%2B3114",
+        "name": "",
+        "classes_taught": "Cao",
+        "A_grade_percentage": "12",
+        "GPA": "2.96"
+    },
+    {
+        "course": "CS%2B3114",
+        "name": "",
+        "classes_taught": "Sullivan",
+        "A_grade_percentage": "7",
+        "GPA": "2.84"
+    },
+    {
+        "course": "CS%2B3114",
+        "name": "",
+        "classes_taught": "North",
+        "A_grade_percentage": "5",
+        "GPA": "2.73"
+    },
+    {
+        "course": "CS%2B3114",
+        "name": "",
+        "classes_taught": "Barnette",
+        "A_grade_percentage": "4",
+        "GPA": "2.54"
+    },
+    {
+        "course": "CS%2B3114",
+        "name": "",
+        "classes_taught": "Edmison",
+        "A_grade_percentage": "4",
+        "GPA": "3.50"
+    },
+    {
+        "course": "CS%2B3114",
+        "name": "",
+        "classes_taught": "Kazerouni",
+        "A_grade_percentage": "3",
+        "GPA": "2.86"
+    },
+    {
+        "course": "CS%2B3114",
+        "name": "",
+        "classes_taught": "Hamouda",
+        "A_grade_percentage": "2",
+        "GPA": "3.55"
+    },
+    {
+        "course": "CS%2B3114",
+        "name": "",
+        "classes_taught": "Raghvendra",
+        "A_grade_percentage": "2",
+        "GPA": "2.85"
     }
 ]
