@@ -4,3 +4,6 @@ langchain
 openai
 faiss-cpu
 python-dotenv
+langchain-community
+flask
+pandas
