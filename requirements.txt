@@ -1,5 +1,5 @@
 fastapi
-uvicorn
+gunicorn
 langchain
 openai
 faiss-cpu
