@@ -1,15 +1,13 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
+from pydantic import BaseModel
 from rag_pipeline import get_answer
 
 app = FastAPI()
 
-@app.get("/")
-def health():
-    return {"status": "running"}
+class Query(BaseModel):
+    query: str
 
 @app.post("/ask")
-async def ask_question(request: Request):
-    body = await request.json()
-    question = body.get("question")
-    answer = get_answer(question)
-    return {"question": question, "answer": answer}
+def ask(query: Query):
+    response = get_answer(query.query)
+    return {"response": response}

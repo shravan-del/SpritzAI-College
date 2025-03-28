@@ -8,3 +8,8 @@ langchain-community
 flask
 pandas
 jq
+uvicorn  # to serve FastAPI app
+beautifulsoup4  # for scraping (used likely in scraper-ratemy)
+pydantic  # required by FastAPI
+httpx  # sometimes used under the hood by LangChain
+tqdm  # used by LangChain pipelines
