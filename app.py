@@ -8,6 +8,10 @@ app = FastAPI()
 class Query(BaseModel):
     query: str
 
+@app.get("/")
+async def root():
+    return {"status": "running"}
+
 @app.post("/ask")
 def ask(query: Query):
     response = get_answer(query.query)
