@@ -9,7 +9,7 @@ class Question(BaseModel):
     question: str
 
 @app.get("/")
-async def root():
+def health():
     return {"status": "running"}
 
 @app.post("/ask")
