@@ -5,7 +5,7 @@ def get_documents():
     for file_path in ["anaanu_data.json", "reddit_data.json"]:
         loader = JSONLoader(
             file_path=file_path,
-            jq_schema=".[]",
+            jq_schema=".[]", 
             content_key="GPA",  # or any other field you want to summarize
             text_content=False  # critical fix for Render crash
         )
